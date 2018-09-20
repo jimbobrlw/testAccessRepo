@@ -18,7 +18,7 @@
     <Field_0 name="ID">
       <Value name="Value" type="4"/>
       <Attributes name="Attributes" type="4" value="17"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
       <Type name="Type" type="3" value="4"/>
       <Name name="Name" type="12" value="ID"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="0"/>
@@ -84,7 +84,7 @@
     <Field_2 name="Mana Cost">
       <Value name="Value" type="4"/>
       <Attributes name="Attributes" type="4" value="1"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
       <Type name="Type" type="3" value="4"/>
       <Name name="Name" type="12" value="Mana Cost"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="2"/>
@@ -118,7 +118,7 @@
     <Field_3 name="Field3">
       <Value name="Value" type="1"/>
       <Attributes name="Attributes" type="4" value="1"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
       <Type name="Type" type="3" value="1"/>
       <Name name="Name" type="12" value="Field3"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="3"/>
