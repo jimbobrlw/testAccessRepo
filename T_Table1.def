@@ -3,8 +3,8 @@
   <Properties/>
   <SQL>CREATE TABLE [Table1] (
 [ID] AUTOINCREMENT,
-[Field1] TEXT (255),
-[Field2] LONG DEFAULT 0,
+[Card Name] TEXT (255),
+[Mana Cost] LONG DEFAULT 0,
 [Field3] BIT DEFAULT No);</SQL>
   <Attributes value="0">
     <dbHiddenObject value="False"/>
@@ -46,15 +46,15 @@
       <ResultType name="ResultType" type="2" value="0"/>
       <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
     </Field_0>
-    <Field_1 name="Field1">
+    <Field_1 name="Card Name">
       <Value name="Value" type="10"/>
       <Attributes name="Attributes" type="4" value="2"/>
       <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
       <Type name="Type" type="3" value="10"/>
-      <Name name="Name" type="12" value="Field1"/>
+      <Name name="Name" type="12" value="Card Name"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="1"/>
       <Size name="Size" type="4" value="255"/>
-      <SourceField name="SourceField" type="12" value="Field1"/>
+      <SourceField name="SourceField" type="12" value="Card Name"/>
       <SourceTable name="SourceTable" type="12" value="Table1"/>
       <ValidateOnSet name="ValidateOnSet" type="1"/>
       <DataUpdatable name="DataUpdatable" type="1" value="False"/>
@@ -81,15 +81,15 @@
       <ResultType name="ResultType" type="2" value="0"/>
       <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
     </Field_1>
-    <Field_2 name="Field2">
+    <Field_2 name="Mana Cost">
       <Value name="Value" type="4"/>
       <Attributes name="Attributes" type="4" value="1"/>
       <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
       <Type name="Type" type="3" value="4"/>
-      <Name name="Name" type="12" value="Field2"/>
+      <Name name="Name" type="12" value="Mana Cost"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="2"/>
       <Size name="Size" type="4" value="4"/>
-      <SourceField name="SourceField" type="12" value="Field2"/>
+      <SourceField name="SourceField" type="12" value="Mana Cost"/>
       <SourceTable name="SourceTable" type="12" value="Table1"/>
       <ValidateOnSet name="ValidateOnSet" type="1"/>
       <DataUpdatable name="DataUpdatable" type="1" value="False"/>
